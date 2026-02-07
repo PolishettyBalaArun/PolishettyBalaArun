@@ -37,20 +37,6 @@ I enjoy solving real-world problems with **Machine Learning, Data Visualization,
 
 ---
 
-## 🌟 Skills  
-
-- 🐍 Python  
-- ☕ Java  
-- 💻 C / C++  
-- 🗄️ SQL (MySQL, PostgreSQL)  
-- 📊 Power BI, Excel  
-- ☁️ AWS  
-- 📈 Data Visualization (Seaborn, Matplotlib)  
-- 🤖 AI/ML (TensorFlow, Keras)  
-- 🧑‍💻 Tools: Git, GitHub, VS Code, Jupyter Notebook, Google Colab  
-
----
-
 ## 🤝 Let's Connect!  
 
 <p align="center">
