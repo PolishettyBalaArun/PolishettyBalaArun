@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="800" height="130" role="img" aria-label="Quote Card">
+  <!-- Background Card with Glassmorphic Border -->
+  <rect width="800" height="130" rx="10" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Left border decorative stripe -->
+  <rect x="0" y="0" width="5" height="130" rx="2" fill="#00F2FE"/>
+
+  <!-- Glowing background elements -->
+  <circle cx="700" cy="65" r="80" fill="#0072ff" fill-opacity="0.05" filter="blur(20px)"/>
+
+  <!-- Quote symbol -->
+  <text x="30" y="55" font-family="Georgia, serif" font-size="72" fill="#00F2FE" fill-opacity="0.15">“</text>
+
+  <!-- Quote Text -->
+  <text x="65" y="45" font-family="system-ui, sans-serif" font-style="italic" font-size="13" fill="#cbd5e1">
+    Artificial Intelligence is not merely about replicating human tasks. It is about building
+  </text>
+  <text x="65" y="65" font-family="system-ui, sans-serif" font-style="italic" font-size="13" fill="#cbd5e1">
+    intelligent ecosystems that amplify human capability and solve complex, real-world problems.
+  </text>
+
+  <!-- Quote Author -->
+  <text x="65" y="95" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#00F2FE" letter-spacing="0.5">
+    POLISHEDETTY BALA ARUN
+  </text>
+  <text x="210" y="95" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">
+    — AI &amp; MACHINE LEARNING ENGINEER
+  </text>
+
+</svg>

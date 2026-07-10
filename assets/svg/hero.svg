@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Polishetty Bala Arun - AI &amp; Machine Learning Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070c"/>
+      <stop offset="50%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#0d1527"/>
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0072ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    <clipPath id="typeGreet">
+      <rect x="80" y="100" width="0" height="40">
+        <animate attributeName="width" from="0" to="160" dur="0.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeName">
+      <rect x="80" y="150" width="0" height="70">
+        <animate attributeName="width" from="0" to="750" dur="2.2s" begin="0.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeRole">
+      <rect x="80" y="230" width="0" height="30">
+        <animate attributeName="width" from="0" to="600" dur="1.8s" begin="3.0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeBio">
+      <rect x="80" y="270" width="0" height="50">
+        <animate attributeName="width" from="0" to="650" dur="1.8s" begin="4.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+
+  <!-- Neural Net Illustration (Right Side) -->
+  <g transform="translate(850, 200)" opacity="0.85">
+    <!-- Connections -->
+    <path d="M-100,-100 L0,-120 L100,-80 L80,20 L0,100 L-100,50 L-120,-30 L-100,-100" fill="none" stroke="#1e293b" stroke-width="1"/>
+    <path d="M0,0 L-100,-100 M0,0 L0,-120 M0,0 L100,-80 M0,0 L80,20 M0,0 L0,100 M0,0 L-100,50 M0,0 L-120,-30" fill="none" stroke="#1e293b" stroke-width="1"/>
+    <path d="M-100,-100 L100,-80 M-120,-30 L80,20 M-100,50 L100,-80" fill="none" stroke="#0f172a" stroke-width="0.8"/>
+    
+    <!-- Outer Orbiting Circles -->
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#00F2FE" stroke-opacity="0.15" stroke-dasharray="5,15">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#0072ff" stroke-opacity="0.1" stroke-dasharray="10,10">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Pulsing Nodes -->
+    <circle cx="0" cy="0" r="8" fill="#00F2FE" opacity="0.9">
+      <animate attributeName="r" values="6;10;6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-100" cy="-100" r="5" fill="#0072ff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="-120" r="4" fill="#00F2FE"/>
+    <circle cx="100" cy="-80" r="6" fill="#0072ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="20" r="5" fill="#00F2FE"/>
+    <circle cx="0" cy="100" r="6" fill="#0072ff"/>
+    <circle cx="-100" cy="50" r="4" fill="#00F2FE"/>
+    <circle cx="-120" cy="-30" r="5" fill="#0072ff"/>
+    
+    <!-- Halo ring -->
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#00F2FE" stroke-opacity="0.5" stroke-width="1.5">
+      <animate attributeName="r" values="15;30;15" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Left Side: Terminal Text / Bio -->
+  <!-- Terminal indicator -->
+  <g transform="translate(80, 60)">
+    <circle cx="0" cy="0" r="6" fill="#ff5f56"/>
+    <circle cx="20" cy="0" r="6" fill="#ffbd2e"/>
+    <circle cx="40" cy="0" r="6" fill="#27c93f"/>
+    <text x="60" y="5" font-family="Consolas, Monaco, monospace" font-size="13" fill="#64748b">arun@ai-core:~</text>
+  </g>
+
+  <!-- Greetings -->
+  <g clip-path="url(#typeGreet)">
+    <text x="80" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" fill="#94a3b8">Hello World, I'm</text>
+  </g>
+
+  <!-- Name -->
+  <g clip-path="url(#typeName)">
+    <text x="80" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="url(#cyanBlue)">Polishetty Bala Arun</text>
+  </g>
+
+  <!-- Role Description -->
+  <g clip-path="url(#typeRole)">
+    <text x="80" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#e2e8f0">
+      AI &amp; Machine Learning Engineer <tspan fill="#64748b">|</tspan> Generative AI Specialist
+    </text>
+  </g>
+
+  <!-- Short Bio -->
+  <g clip-path="url(#typeBio)">
+    <text x="80" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94a3b8">
+      Building scalable AI solutions, deep learning pipelines, and context-aware RAG agents.
+    </text>
+    <text x="80" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748b">
+      VIT University CSE (AI &amp; ML) &apos;27 • Hyderabad, India
+    </text>
+  </g>
+
+  <!-- Custom animated cursor for roles -->
+  <rect x="80" y="235" width="2.5" height="18" fill="#00F2FE">
+    <animate attributeName="x" from="80" to="580" dur="1.8s" begin="3.0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>

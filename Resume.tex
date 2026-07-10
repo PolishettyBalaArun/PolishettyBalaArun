@@ -1,0 +1,146 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\cleanlook
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Polishetty Bala Arun}} \\ \vspace{3pt}
+    \small Hyderabad, India ~|~ +91 8019783659 ~|~
+    \href{mailto:balaarun203@gmail.com}{balaarun203@gmail.com} ~|~
+    \href{https://www.linkedin.com/in/polishetty-bala-arun/}{LinkedIn} ~|~
+    \href{https://github.com/PolishettyBalaArun}{GitHub}
+\end{center}
+
+\section{Professional Summary}
+Result-oriented AI/ML Engineering student with hands-on experience in training deep learning models, building Retrieval-Augmented Generation (RAG) pipelines, and developing end-to-end web platforms. Proven capability in translating complex neural architectures into production-ready applications. Seeking to leverage skills in TensorFlow, LangChain, and Python to contribute to innovative AI initiatives.
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Vellore Institute of Technology (VIT), AP}{Sept 2023 - Sept 2027}
+    {B.Tech. in Computer Science and Engineering with Specialization in AI \& ML}{GPA: 8.33 / 10.00}
+  \resumeSubheading
+    {Little Flower Junior College, Hyderabad}{Sept 2021 - April 2023}
+    {Intermediate Education (MPC - Mathematics, Physics, Chemistry)}{Percentage: 92.9\%}
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Programming}: {Python, Java, SQL, C, C++}\\
+      \textbf{AI \& Machine Learning}: {Deep Learning, Generative AI, RAG, LLMs (Zephyr-7B, OpenAI APIs), Natural Language Processing (NLP), Computer Vision, Explainable AI (XAI)}\\
+      \textbf{Frameworks \& Libraries}: {TensorFlow, Keras, PyTorch, LangChain, Streamlit, Flask, React, Scikit-learn, Pandas, NumPy, OpenCV, FAISS, Sentence Transformers}\\
+      \textbf{Databases \& Cloud}: {MySQL, PostgreSQL, SQLite, MongoDB, AWS (EC2, S3)}\\
+      \textbf{Developer Tools \& Platforms}: {Git, GitHub Actions, Docker, VS Code, Jupyter Notebook, PyCharm, IntelliJ IDEA, Power BI, Tableau, Excel}\\
+    }}
+\end{itemize}
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{AI-Based Skin Disease Detection System} $|$ \emph{TensorFlow, Keras, OpenCV, Flask, React, NumPy}}{}
+  \resumeItemListStart
+    \resumeItem{Engineered an end-to-end AI dermatology assistant using deep convolutional neural networks (CNNs) in TensorFlow to classify skin diseases from medical images.}
+    \resumeItem{Developed robust image pre-processing and data augmentation pipelines with OpenCV and NumPy, enhancing model generalization and reducing inference latency.}
+    \resumeItem{Designed and deployed a responsive web interface using React and Flask to facilitate secure image uploads, asynchronous model predictions, and interactive visualization of results.}
+  \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{AI-Powered Drug Discovery Platform (DTI Prediction)} $|$ \emph{PyTorch, TensorFlow, React, Python, Plotly, Flask}}{}
+  \resumeItemListStart
+    \resumeItem{Architected a deep learning-based Drug-Target Interaction (DTI) prediction platform to accelerate virtual screening of candidate molecules from protein sequence data.}
+    \resumeItem{Trained and evaluated CNN models in PyTorch to map chemical structures and protein sequences, predicting binding affinities with high precision.}
+    \resumeItem{Integrated explainable AI (XAI) features using attribution maps and interactive Plotly dashboards, allowing researchers to visualize model decision boundaries.}
+  \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Multi-PDF Retrieval-Augmented Generation (RAG) Application} $|$ \emph{LangChain, FAISS, Hugging Face Zephyr-7B, Streamlit, Sentence Transformers, PyPDFLoader}}{}
+  \resumeItemListStart
+    \resumeItem{Developed a high-performance RAG pipeline enabling context-aware question answering across multiple large PDF documents in real-time.}
+    \resumeItem{Implemented document parsing and chunking using PyPDFLoader and Recursive Character Text Splitting, indexing text vector embeddings in a FAISS vector store.}
+    \resumeItem{Integrated Zephyr-7B LLM via LangChain and designed a Streamlit interface, ensuring source-cited, hallucination-free responses based on retrieved context.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      - Oracle Cloud Infrastructure 2025 Certified Generative AI Professional (Oracle)\\
+      - Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate (Oracle)\\
+      - AWS Academy Graduate - Cloud Architecting (Amazon Web Services)\\
+      - AWS Academy Graduate - Cloud Foundations (Amazon Web Services)\\
+      - SQL and Relational Databases 101 (IBM Skills Network)\\
+    }}
+\end{itemize}
+
+\end{document}

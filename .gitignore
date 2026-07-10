@@ -1,0 +1,6 @@
+# Antigravity Local Wrapper
+powershell.bat
+
+# OS files
+.DS_Store
+Thumbs.db
